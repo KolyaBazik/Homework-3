@@ -1,0 +1,82 @@
+
+#header {
+    height: 204px;
+    position: relative
+}
+body {
+    background-color: #000000;
+    background-image: url(images/2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+}
+#page {
+    width: 960px;
+    margin:0 auto;
+}
+.strong-red{
+    margin-top: 200px;
+    font-weight: n normal;
+    text-align: right;
+    text-decoration: none;
+    text-transform: capitalize
+}
+.light-blue{
+    font-weight: lighter;
+        color:blue;
+}
+#navigation {
+    height: 65px;
+}
+#navigation ul li {
+    float: left;
+    position: relative;
+}
+#navigation ul li a {
+    color: aqua;
+    padding: 0 15px;
+    font-family: "Cuprum", sans-serif;
+    text-decoration: none;
+    line-height: 65px;
+    display: block;
+    height: 65px;
+}
+#navigation ul li a:hover {
+    background: rgba(222, 32, 32, 0.83);
+    text-decoration: underline;
+    height: 45px;
+}
+
+#navigation .dropdown {
+    position: absolute;
+    top: 100%;
+    width: 150 px;
+    background: aqua;
+    display: none;
+}
+
+#navigation li:hover .dropdown {
+    display: block;
+}
+
+#navigation .dropdown li {
+    width: 100%;
+}
+#navigation .dropdown li a{
+    line-height: 45px;
+    height: 45px;
+}
+
+
+#styles {
+   color: red;
+}
+
+.logo {
+    display: block;
+    position: absolute;
+    bottom: 200px;
+    left: 120px;
+    margin: 20px;
+    padding: 40px;
+}
